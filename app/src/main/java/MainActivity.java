@@ -29,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
     private class SendMail extends AsyncTask<String, Integer, Void> {
 
         private ProgressDialog progressDialog;
-
+// New Changes
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
